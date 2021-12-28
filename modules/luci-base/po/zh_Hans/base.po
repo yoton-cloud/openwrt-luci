@@ -10163,3 +10163,6 @@ msgstr "是"
 #: modules/luci-compat/luasrc/view/cbi/delegator.htm:20
 msgid "« Back"
 msgstr "« 后退"
+
+msgid "NAS"
+msgstr "网络存储"
