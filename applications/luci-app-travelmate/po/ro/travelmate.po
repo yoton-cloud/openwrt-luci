@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-12-12 23:09+0000\n"
-"Last-Translator: Simona Iacob <s@zp1.net>\n"
+"PO-Revision-Date: 2022-01-12 11:22+0000\n"
+"Last-Translator: CRISTIAN ANDREI <cristianvdr@gmail.com>\n"
 "Language-Team: Romanian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationstravelmate/ro/>\n"
 "Language: ro\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 4.10-dev\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:76
 msgid "-- AP Selection --"
@@ -132,8 +132,8 @@ msgstr ""
 msgid ""
 "Configuration of the travelmate package to enable travel router "
 "functionality. For further information <a href=\"https://github.com/openwrt/"
-"packages/blob/master/net/travelmate/files/README.md\" target=\"_blank\" rel="
-"\"noreferrer noopener\" >check the online documentation</a>. <br /> "
+"packages/blob/master/net/travelmate/files/README.md\" target=\"_blank\" "
+"rel=\"noreferrer noopener\" >check the online documentation</a>. <br /> "
 "<em>Please note:</em> On first start please call the 'Interface Wizard' "
 "once, to make the necessary network- and firewall settings."
 msgstr ""
@@ -240,7 +240,7 @@ msgstr "EAP-TLS"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:260
 msgid "Edit"
-msgstr "Modificați"
+msgstr "Editați"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:258
 msgid "Edit this network"
@@ -435,8 +435,8 @@ msgstr ""
 "Prezentare generală a tuturor legăturilor ascendente configurate pentru "
 "Travelmate. Puteți edita, elimina sau prioritiza legăturile ascendente "
 "existente prin glisare &#38; drop și puteți căuta altele noi.<br /> "
-"Conexiunea ascendentă utilizată în prezent este evidențiată în <span style="
-"\"color:rgb(51, 119, 204);font-weight:bold\">blue</span>, o conexiune "
+"Conexiunea ascendentă utilizată în prezent este evidențiată în <span "
+"style=\"color:rgb(51, 119, 204);font-weight:bold\">blue</span>, o conexiune "
 "ascendentă VPN criptată este evidențiată în <span style=\"color:rgb(68, 170, "
 "68);font-weight:bold\">green</span>."
 
@@ -550,7 +550,7 @@ msgstr "Necesar"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:277
 msgid "Restart Interface"
-msgstr "Repornirea interfeței"
+msgstr "Reporniți interfața"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:308
 msgid ""
@@ -627,7 +627,7 @@ msgstr ""
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:754
 msgid "Starting wireless scan on '"
-msgstr "Pornirea scanării wireless pe '"
+msgstr "Se pornește scanarea wireless pe '"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:231
 msgid "Station ID"

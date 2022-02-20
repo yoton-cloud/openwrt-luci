@@ -63,6 +63,7 @@ return baseclass.extend({
 			_('Model'),            boardinfo.model,
 			_((cpuinfo && cpuinfo.result) ? 'CPU Info' : 'Architecture'),     (cpuinfo && cpuinfo.result) ? cpuinfo.result : boardinfo.system,
 			//_('Architecture'),     boardinfo.system,
+			_('Target Platform'),  (L.isObject(boardinfo.release) ? boardinfo.release.target : ''),
 			_('Firmware Version'), (L.isObject(boardinfo.release) ? boardinfo.release.description + ' / ' : '') + (luciversion || ''),
 			_('Kernel Version'),   boardinfo.kernel,
 			_('Local Time'),       datestr,

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-12-10 15:48+0000\n"
-"Last-Translator: Simona Iacob <s@zp1.net>\n"
+"PO-Revision-Date: 2022-01-12 11:22+0000\n"
+"Last-Translator: CRISTIAN ANDREI <cristianvdr@gmail.com>\n"
 "Language-Team: Romanian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsradicale/ro/>\n"
 "Language: ro\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 4.10-dev\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:268
 msgid ""
@@ -202,8 +202,9 @@ msgid ""
 "For example, for the 'user' key, '.+' means 'authenticated user' and '.*' "
 "means 'anybody' (including anonymous users)."
 msgstr ""
-"De exemplu, pentru cheia \"user\", \".+\" înseamnă \"utilizator autentificat"
-"\", iar \".*\" înseamnă \"oricine\" (inclusiv utilizatorii anonimi)."
+"De exemplu, pentru cheia \"user\", \".+\" înseamnă \"utilizator "
+"autentificat\", iar \".*\" înseamnă \"oricine\" (inclusiv utilizatorii "
+"anonimi)."
 
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:435
 msgid "Full access for Owner only"
@@ -415,7 +416,7 @@ msgstr "Actualizare software necesară"
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:164
 #: applications/luci-app-radicale/luasrc/view/radicale/btn_startstop.htm:10
 msgid "Start"
-msgstr "Începeți"
+msgstr "Porniți"
 
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:155
 msgid "Start / Stop"
