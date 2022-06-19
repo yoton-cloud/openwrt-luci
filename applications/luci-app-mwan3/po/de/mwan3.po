@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-24 06:56+0000\n"
+"PO-Revision-Date: 2022-06-12 16:30+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsmwan3/de/>\n"
@@ -8,7 +8,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.13-dev\n"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:176
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:192
@@ -128,7 +128,7 @@ msgstr "Kritisch"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/globalsconfig.lua:33
 msgid "Debug"
-msgstr "Debug"
+msgstr "Debuggen"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/rule.lua:85
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/ruleconfig.lua:36
@@ -167,7 +167,7 @@ msgstr ""
 
 #: applications/luci-app-mwan3/luasrc/view/mwan/overview_status_interface.htm:44
 msgid "Downtime"
-msgstr ""
+msgstr "Ausfallzeit"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/globalsconfig.lua:26
 msgid "Emergency"
@@ -273,11 +273,11 @@ msgstr "IPv4"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/ruleconfig.lua:23
 msgid "IPv4 and IPv6"
-msgstr ""
+msgstr "IPv4 und IPv6"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/ruleconfig.lua:24
 msgid "IPv4 only"
-msgstr ""
+msgstr "Nur IPv4"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:35
 msgid "IPv6"
@@ -285,7 +285,7 @@ msgstr "IPv6"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/ruleconfig.lua:25
 msgid "IPv6 only"
-msgstr ""
+msgstr "Nur IPv6"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/globalsconfig.lua:32
 msgid "Info"
@@ -492,7 +492,7 @@ msgstr "Keine MWAN-Schnittstellen gefunden"
 
 #: applications/luci-app-mwan3/luasrc/view/mwan/overview_status_interface.htm:50
 msgid "No Tracking"
-msgstr ""
+msgstr "Keine Verfolgung"
 
 #: applications/luci-app-mwan3/luasrc/controller/mwan3.lua:159
 msgid "No gateway for interface %s found."
@@ -673,7 +673,7 @@ msgstr "Quellport"
 
 #: applications/luci-app-mwan3/luasrc/view/mwan/overview_status_interface.htm:78
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/ruleconfig.lua:55
 msgid "Sticky"
@@ -740,8 +740,8 @@ msgstr ""
 "ausgeführt.<br />Setzen Sie Ihre eigene mwan3-Aktion hier, sie wird bei "
 "jedem netifd hotplug interface event ausgeführt<br />für die Schnittstell wo "
 "der mwan3 aktiviert ist.<br /><br /><br /><br />Es gibt drei Haupt "
-"Umgebungsvariablen, die an dieses Skript übergeben werden.<br /><br /><br />"
-"$ACTION <br />* \"ifup\" Wird von netifd und mwan3track ausgeführt<br />* "
+"Umgebungsvariablen, die an dieses Skript übergeben werden.<br /><br /><br /"
+">$ACTION <br />* \"ifup\" Wird von netifd und mwan3track ausgeführt<br />* "
 "\"ifdown\" Wird von netifd und mwan3track ausgeführt<br />* \"connected\" "
 "Wird von mwan3track ausgeführt, wenn das Tracking erfolgreich war <br />* "
 "\"disconnected\" Wird von mwan3track ausgeführt, wenn das Tracking "
